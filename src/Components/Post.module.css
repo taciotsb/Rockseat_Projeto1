@@ -1,0 +1,65 @@
+.post{
+    background: var(--gray-600);
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.countersCreate{
+    display: flex;
+}
+
+.TaskCreate{
+      display: inline;
+      color: var(--blue);
+   }
+
+   
+.countersFinish{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.TaskFinished{
+    color: var(--purple);
+ }
+
+ .Count{
+    margin-left: 0.5rem ;
+    border-radius: 999px;
+    padding: 0px 8px;
+    gap: 10px;
+    justify-content: center;
+    background-color: var(--gray-400);
+    color: var(--white);
+ }
+
+ .Menu{
+    margin-top: 1.5rem;
+ }
+
+ .ListaVazia{
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    border-top: solid;
+    border-color: var(--gray-400);
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    flex-direction: column;
+ }
+
+ .ListaVazia img{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+ }
+ 
+ .ListaVazia strong{
+    justify-content: center;
+ }

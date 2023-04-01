@@ -1,0 +1,57 @@
+.PostTextArea{
+    background-color: var(--gray-500);
+    border-radius: 8px;
+    border-color: none;
+    border-width: 0.5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    align-items: top;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.PostTextArea input{
+    width: 1rem;
+    height: 1rem;
+    appearance:none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--blue);
+}
+
+input:checked {
+    border: 8px solid var(--blue);
+  }
+
+.PostTextArea textarea{
+    resize: none;
+    background-color: transparent;
+    border:none;
+    width:40rem;
+    text-align: justify;
+    color: var(--white);
+    padding-right: 2rem;
+    margin-top: -2px
+}
+
+.PostTextArea button{
+    width: 1rem;
+    height: 1rem;
+    background-color: transparent;
+    border: none;
+    color: var(--gray-300);
+    padding: 0;
+    align-items: center;
+    justify-items:center;
+}
+
+.PostTextArea button:hover{
+    cursor: pointer;
+}
+
+.PostTextArea button:focus{
+    outline: none;
+    box-shadow: none;
+}
